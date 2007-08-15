@@ -1,0 +1,24 @@
+---
+name: File-Monitor-Simple
+version: 0.99_1
+author:
+  - 'Sebastian Riedel, <sri@cpan.org>'
+  - 'Andy Grundman, <andy@hybridized.org>'
+  - 'Mark Stosberg, <mark@summersault.com>'
+abstract: Watch for changed application files
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Class::Accessor::Fast: 0
+  File::Find::Rule: 0
+  File::Modified: 0
+  File::Spec: 0
+provides:
+  File::Monitor::Simple:
+    file: lib/File/Monitor/Simple.pm
+    version: 0.99_1
+generated_by: Module::Build version 0.2806
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
