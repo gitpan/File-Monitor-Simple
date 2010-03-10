@@ -9,7 +9,7 @@ use File::Spec;
 
 use vars '$VERSION';
 
-$VERSION = '0.99_1';
+$VERSION = '1.00';
 
 __PACKAGE__->mk_accessors(
     qw/directory
